@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { Apollo } from "apollo-angular";
 import gql from "graphql-tag";
-import ARTICLE_QUERY from "../apollo/queries/article/article";
+import ARTICLE_QUERY from "../../../apollo/queries/article/article";
 import { ActivatedRoute } from "@angular/router";
 import { Subscription } from "rxjs";
 

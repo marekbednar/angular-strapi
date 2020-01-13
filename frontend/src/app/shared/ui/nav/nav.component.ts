@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Apollo } from "apollo-angular";
 import gql from "graphql-tag";
-import CATEGORIES_QUERY from "../apollo/queries/category/categories";
+import CATEGORIES_QUERY from "../../../apollo/queries/category/categories";
 import { Subscription } from "rxjs";
 
 @Component({

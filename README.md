@@ -1,12 +1,14 @@
-# Build a blog with Angular.js, Strapi and Apollo
-
-This example is the result of the tutorial series [Build a blog with Angular.js, Strapi and Apollo
-](https://strapi.io/blog/build-a-blog-with-angular-js-strapi-and-apollo)
-
 ## Setup
 
-To see it live:
+Backend: start the Strapi server:
+yarn
+npm run develop
 
-- Clone the repository.
-- Start the Strapi server: `cd tutorials/angular-strapi-apollo-blog/backend && yarn && strapi dev`.
-- Start the angular server: `cd tutorials/angular-strapi-apollo-blog/frontend && yarn && ng serve`.
+Backend is accessible at http://localhost:1337/admin
+
+Frontend:
+
+yarn
+npm run start
+FE: http://localhost:4200/
+
